@@ -59,3 +59,11 @@ body {
         display: none;
     }
 }
+
+.panel:hover {
+    flex: 5;
+}
+.panel h3:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
